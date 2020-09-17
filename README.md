@@ -8,7 +8,7 @@ php artisan migrate <br />
 npm install <br />
 npm run dev <br />
 php artisan vendor:publish --provider="Spatie\Backup\BackupServiceProvider" <br />
-<!-- Define below code in config/database.php  --> <br />
+Define below code in config/database.php  <br />
 Note : Check your mysqldump file path and define in ‘'dump_binary_path' <br />
 'connections' => [ <br />
 	'mysql' => [ <br />
